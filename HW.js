@@ -14,7 +14,7 @@ let item_6;
 let item_6_type;
 item_6 = 15;
 
-
+//
 let age_1;
 age_1= 0;
 let age_2;
@@ -43,3 +43,30 @@ else if (age_1 >= age_2 && age_1 < age_3) {
      console.log ("Technical work");
    }
   
+//
+let bmw = 10
+let lada = 15
+let toyota = 16
+let cars = bmw == lada
+console.log ('cars =', cars)
+
+//
+let count = 0
+while (count <10){
+console.log ("JavaScript!", count),
+count++}
+
+//
+let count2 = 10
+for (let i = 0; i <count2;i++) {
+console.log ("count2 =", count2," I==",1)
+}
+
+//    
+let status_codes = [100,200,300,400,500]
+for (let i in status_codes) {
+console.log ("status_codes =", status_codes [i])
+if (status_codes[i] == 200) {
+console.log ("Find 200 status code")
+    }
+}
